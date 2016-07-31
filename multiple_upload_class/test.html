@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form action="doActionfinal.php" method="post" enctype="multipart/form-data">
+    请选择要上传的文件
+    <br>
+    多选框：
+    <input type="file" name="myfile[]" multiple="multiples" ><br>
+	单选框：
+    <input type="file" name="myfile[]" ><br>
+
+    <br>
+    <input type="submit" value="上传文件">
+</form>
+<hr>
+<div>
+	下载测试：
+<a href="doDownload.php?filename=jin/1.jpg">下载1.jpg</a>
+</div>
+</body>
+</html>
+
