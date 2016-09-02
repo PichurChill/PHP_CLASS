@@ -46,7 +46,8 @@ $result=$upload->uploadFile();
 同样是学习的慕课网上的课程封装的类，比较有可扩展性。
 #####使用方式：
 方式1、
-$type :不区分大小写，默认JSON，可选：JSON、 XML
+$type :
+    - 不区分大小写，默认JSON，可选：JSON、 XML
 ```php
 require_once('Jres.php');
 Jres::type($type)->response(1,'成功',$arr);
@@ -63,6 +64,9 @@ http://the/request/path/test.php?format=json
 
 暂且只是用来作为检测GET或POST方式参数是否传过来了，原本只是在开发的时候写了个简陋的方法，暂时封装类，待以后有其他检测项以后再添加、再取名字。
 #####使用方式：
+check($arr,$type) 
+    - 参数1为一维数组，
+    - 参数2可选项为'GET','POST',不区分大小写，默认'GET'
 ```php
 require_once('Nhn.php');
 //http://the/request/path/test.php/test.php?p1=1&p2=2
