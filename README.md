@@ -37,4 +37,4 @@ $result=$upload->uploadFile();
 ##2、JSSDK-DEMO-PHP
 ###微信JSSDK DEMO
 
-主要还是来自[微信官方的代码]( https://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html#.E9.99.84.E5.BD.956-DEMO.E9.A1.B5.E9.9D.A2.E5.92.8C.E7.A4.BA.E4.BE.8B.E4.BB.A3.E7.A0.81)，结合网上修改了部分地方，如curl那里以及token的存取。
+（Yii2）主要还是来自[微信官方的代码]( https://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html#.E9.99.84.E5.BD.956-DEMO.E9.A1.B5.E9.9D.A2.E5.92.8C.E7.A4.BA.E4.BE.8B.E4.BB.A3.E7.A0.81)，结合网上修改了部分地方，如curl那里以及token的存取。
